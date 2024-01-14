@@ -1,0 +1,80 @@
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.card-pr {
+    display: flex;
+}
+
+.card img {
+    max-width: 140px;
+    max-height: 210px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_information div {
+    font-size: 14px;
+    color: grey;
+}
+
+.price {
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+}
+
+button {
+    border-radius: 4px;
+    padding: 10px 30px;
+    height: 50px;
+    background-color: #0d0d0d;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b2a2a;
+}
